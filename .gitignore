@@ -1,0 +1,30 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+terraform.tfplan.*
+
+# === Kubernetes / ArgoCD ===
+.kube/
+*.kubeconfig
+*.env
+secrets.yaml
+
+# === VS Code ===
+.vscode/
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Python (if used) ===
+__pycache__/
+*.pyc
+
+# === Node.js (if used) ===
+node_modules/
